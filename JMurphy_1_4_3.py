@@ -34,8 +34,8 @@ for r in range(155):
             img[r][c]=[255,0,255] # R + B = magenta
 for r in range(418, 475):
     for c in range(125, 160):
-        if sum(img[r][c])>500: # brightness R+G+B goes up to 3*255=765
-            img[r][c]=[0 ,255, 0] # R + B = magenta
+        if sum(img[r][c])>500:
+            img[r][c]=[0 ,255, 0]
 ###
 # Show the image data
 ###
